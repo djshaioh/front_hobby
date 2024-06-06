@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="sections">
+        <section id="section0" class="active">
+            <h2>도파민 뿜뿜 취미를 소개합니다</h2>
+            <div>
+                <button onclick="nextSection(1)">Next</button>
+            </div>
+        </section>
+        <section id="section1">
+            <img src="img/baseball2.jpg" alt="Watching Baseball">
+            <h2>야구</h2>
+            <p>
+                처음 야구장에 갔을 때 많은 사람들과 하나가 되어 한 팀을 응원하는 재미를 경험한 후 지금까지 쭉 야구를 좋아하다보니 올해 4년차 팬으로써 엘지트윈스를 응원하고 있습니다. 야구는 순간의
+                긴장감과 승부의 불확실성, 에너지 등 여러 감정들이 만나는 곳이기도 합니다. 무엇보다도 좋은 친구들과 소중한 추억을 만들어 주는 공간으로서의 역할을 해주어 더욱 특별한 취미인 것
+                같습니다.
+            </p>
+            <div>
+                <button onclick="nextSection(0)">PREV</button>
+                <button onclick="nextSection(2)">Next</button>
+            </div>
+        </section>
+        <section id="section2">
+            <img src="img/book.png" alt="Reading">
+            <h2>책</h2>
+            <p>책을 항상 즐겨보는 건 아니지만 좋아하는 책을 여러번 반복해서 읽는 것을 좋아합니다. 지금까지 읽었던 책 중 "물고기는 존재하지 않는다"라는 책을 너무 재미있게 읽어 많은 사람들에게
+                추천해주고 싶습니다 </p>
+            <div>
+                <button onclick="nextSection(1)">PREV</button>
+                <button onclick="nextSection(3)">Next</button>
+            </div>
+        </section>
+        <section id="section3">
+            <img src="img/ott.jpg" alt="Streaming OTT">
+            <h2>OTT</h2>
+            <p>시험이 끝난 후나 일정이 없는 날에는 OTT 콘텐츠를 보며 하루를 보내는 걸 즐깁니다 여러 OTT 서비스를 이용하여 여러 콘텐츠 중 드라마 콘텐츠를 즐겨 보는 편입니다</p>
+            <div>
+                <button onclick="nextSection(2)">PREV</button>
+            </div>
+        </section>
+    </div>
+
+    <a href="../../main/index.html" class="back">
+        <button id="backButton">돌아가기</button>
+    </a>
+
+    <footer>
+        <p>© 2024 나의 취미 소개 페이지</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
